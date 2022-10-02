@@ -55,5 +55,7 @@
   <script src="{{ asset('admin/js/dataTables.bootstrap4.js') }}"></script>
 
     @livewireStyles
+    @method('script')
+
 </body>
 </html>
